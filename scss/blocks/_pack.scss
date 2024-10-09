@@ -5,7 +5,7 @@
 
 .pack__box {
   @include display(column, none, center, 0);
-  background-image: url(../../image/greenBg.png);
+  background-image: url(../image/greenBg.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
