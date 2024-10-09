@@ -1,0 +1,53 @@
+.about {
+  padding: 0 20px 20px 20px;
+}
+
+.about__bin {
+  background-image: url(../../image/bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 80px
+}
+
+.about__box {
+  @include display(column, center, center, 10px);
+}
+
+.about__title {
+  padding-top: 50px;
+  @include Tword(var(--white));
+}
+
+.about__subtitle {
+  @include Bword(16px, var(--white));
+  text-align: center;
+  max-width: 518px;
+}
+
+.about__information {
+  @include display(row, center, space-around, 0);
+  margin-top: 80px;
+}
+
+.information__title {
+  @include Ltitle(30px, 35.16px);
+  padding-top: 28px;
+  padding-bottom: 10px;
+}
+
+.information__subtitle {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  color: var(--black);
+  max-width: 377px;
+}
+
+.letter {
+  position: absolute;
+  width: 140px;
+  height: 144px;
+  top: 2850px;
+  left: 0;
+}

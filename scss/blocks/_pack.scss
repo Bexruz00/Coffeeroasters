@@ -1,0 +1,56 @@
+.pack {
+  padding: 20px;
+  overflow: hidden;
+}
+
+.pack__box {
+  @include display(column, none, center, 0);
+  background-image: url(../../image/greenBg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 50px;
+}
+
+.pack__box h2 {
+  @include Tword(var(--black));
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+
+.pack__bin {
+  @include display(row, center, space-around, 0);
+}
+
+.pTitle {
+  @include title();
+}
+
+.pStitle {
+  @include Sword();
+  max-width: 453px;
+}
+
+.leaf_1 {
+  position: absolute;
+  width: 402px;
+  height: 300px;
+  top: 970.59px;
+  left: -150px;
+}
+
+.leaf_2 {
+  position: absolute;
+  top: 1656.16px;
+  right: 0;
+  
+}
+
+.leaf_3 {
+  position: absolute;
+  width: 316px;
+  height: 269px;
+  top: 2121.51px;
+  left: -196px;
+}

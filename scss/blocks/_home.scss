@@ -1,0 +1,41 @@
+main {
+  background-image: url(../image/sentbackgrount.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home {
+  @include display(row, center, space-between, 0);
+  max-height: 713px;
+}
+
+.home__title {
+  max-width: 615px;
+  padding-left: 150px;
+  @include display(column, start, center, 20px);
+}
+
+.home__word {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 75px;
+  color: #000;
+}
+
+.home__subtitle {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000;
+  padding-bottom: 10px;
+}
+
+.gbt {
+  @include button(var(--green), var(--white));
+}
+
+.home__img {
+  top: -30px;
+  position: relative;
+}

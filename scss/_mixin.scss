@@ -1,0 +1,57 @@
+@mixin display($direction, $align, $space, $gap) {
+  display: flex;
+  flex-direction: $direction;
+  align-items: $align;
+  justify-content: $space;
+  gap: $gap;
+}
+
+@mixin Tword($color) {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 58.59px;
+  color: $color;
+  text-transform: uppercase;
+}
+
+@mixin Sword() {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 34px;
+  color: var(--black);
+}
+
+@mixin title() {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 56.25px;
+  color: var(--black);
+  text-transform: uppercase;
+}
+
+@mixin Bword($size, $color) {
+  font-size: $size;
+  font-weight: 400;
+  line-height: 28px;
+  color: $color;
+}
+
+@mixin Ltitle($size, $line) {
+  font-size: $size;
+  font-weight: 500;
+  line-height: $line;
+  color: var(--black);
+}
+
+@mixin button($background, $color) {
+  width: 193px;
+  height: 51px;
+  border-radius: 100px;
+  border: none;
+  background: $background;
+  color: $color;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.75px;
+  letter-spacing: 1px;
+}

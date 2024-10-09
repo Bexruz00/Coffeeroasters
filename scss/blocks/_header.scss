@@ -1,0 +1,29 @@
+header {
+  padding: 40px 50px;
+  background-image: url(../image/sentbackgrount.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header {
+  @include display(row, center, space-between, 0);
+}
+
+.header__link {
+  @include display(row, center, space-between, 40px);
+}
+
+.header__link li a {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14.06px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--black);
+  transition: 0.3s;
+}
+
+.header__link li a:hover {
+  color: var(--green);
+}
