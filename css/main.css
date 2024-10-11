@@ -83,11 +83,6 @@ header {
   transition: 0.3s;
 }
 
-.header__link li a:hover {
-  color: var(--green);
-  cursor: pointer;
-}
-
 main {
   background-image: url(../image/sentbackgrount.png);
   background-position: center;
@@ -410,4 +405,47 @@ main {
   top: 3680px;
   right: 100px;
   padding: 0.06px 0.21px 0.02px 0.01px;
+}
+
+.footer__box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0;
+  padding: 60px 50px 60px 50px;
+  background-image: url(../image/sentbackgrount.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer__link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.footer__link li a {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.75px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--black);
+  transition: 0.3s;
+}
+
+.footer__link li a:hover {
+  color: var(--green);
+}
+
+.footer__icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
 }/*# sourceMappingURL=main.css.map */

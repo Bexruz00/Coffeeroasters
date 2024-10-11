@@ -1,0 +1,33 @@
+.footer {
+}
+
+.footer__box {
+  @include display(row, center, space-between, 0);
+  padding: 60px 50px 60px 50px;
+  background-image: url(../image/sentbackgrount.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer__link {
+  @include display(row, center, center, 40px);
+}
+
+.footer__link li a {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.75px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--black);
+  transition: .3s;
+}
+
+.footer__link li a:hover{
+    color: var(--green);
+}
+
+.footer__icon {
+  @include display(row, center, center, 30px);
+}
