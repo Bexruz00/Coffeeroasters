@@ -33,6 +33,13 @@ main {
 
 .gbt {
   @include button(var(--green), var(--white));
+  transition: .3s;
+}
+
+.gbt:hover{
+  background: transparent;
+  border: 2px solid var(--green);
+  color: var(--green);
 }
 
 .home__img {

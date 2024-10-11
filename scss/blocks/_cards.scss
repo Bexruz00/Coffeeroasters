@@ -1,0 +1,79 @@
+.cards {
+  padding: 20px;
+}
+
+.cards__bg {
+  background-image: url(../../image/darkGreen.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px;
+}
+
+.cards__title {
+  text-align: center;
+  @include Tword(var(--white));
+  margin-bottom: 80px;
+}
+
+.cards__img {
+  @include display(row, start, start, 0);
+}
+
+.cards__img img {
+  width: 1048px;
+}
+
+.cards__box {
+  @include display(row, center, space-between, 0);
+}
+
+.cards__bin {
+  max-width: 433px;
+  background: var(--light);
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.bin__number {
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 75px;
+  text-align: right;
+  color: var(--black);
+  padding-bottom: 45px;
+}
+
+.bin__title {
+  @include Ltitle(40px, 46.88px);
+  max-width: 231px;
+  padding-bottom: 10px;
+}
+
+.bin__subtitle {
+  @include Bword(18px, var(--black));
+}
+
+.cards__button {
+  @include display(column, center, center, 0);
+}
+
+.cadrs__bt {
+  @include button(#c99b67, var(--white));
+  transition: .3s;
+}
+
+.cadrs__bt:hover{
+    background: transparent;
+    border: 2px solid #c99b67;
+    color: #c99b67;
+}
+
+.ball {
+  position: absolute;
+  width: 200px;
+  top: 3680px;
+  right: 100px;
+  padding: 0.06px 0.21px 0.02px 0.01px;
+}
